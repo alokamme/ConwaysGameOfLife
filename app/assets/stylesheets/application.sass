@@ -1,0 +1,66 @@
+@import bootstrap-sprockets
+@import bootstrap
+@import font-awesome
+
+html
+	position: relative
+	min-height: 100%
+
+body
+	font-family: 'Ubuntu', sans-seri
+	font-size: 16px
+	line-height: 1.7
+	background: #F0F8FF
+
+.container
+	margin: 3em auto 0em auto
+
+.row-without-pad
+	[class*="col-"] 
+		padding-left: 2px !important
+		padding-right: 2px !important
+
+.btn:hover
+	background-color: #8A58B7
+
+.cover
+	
+	.cover-in
+		background: #6495ED
+		padding: 4px 5px 0 5px
+		margin: 20px 0
+
+.grid
+	margin: 0px 12px 
+
+.cell
+	cursor: pointer
+	background: #FFF
+	height: 54px
+	margin-bottom: 4px
+	color: #444
+	position: relative
+	-webkit-transition: all .3s ease
+	-moz-transition: all .3s ease
+	transition: all .3s ease
+		
+.active
+	background: #3333cc
+
+.cell:hover
+	background: #33cc33
+
+.clear
+	position: fixed
+	top: 10px
+	right: 10px
+	color: #FF621B
+	cursor: pointer
+	display: none
+
+
+
+footer 
+	position: absolute
+	text-align: right
+	bottom: 0px
