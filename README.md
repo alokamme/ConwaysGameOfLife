@@ -1,25 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Conway's Game of Life implementation using Rails 5.
 
-Things you may want to cover:
+* For a live preview kindly visit https://fast-tor-14302.herokuapp.com/
 
-* Ruby version
+* For references kindly visit https://en.wikipedia.org/wiki/Conway's_Game_of_Life
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 "# ConwaysGameOfLife" 
